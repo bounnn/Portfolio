@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Boun Portfolio</title>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="./assets/css/assets.css" />
+    <link rel="stylesheet" href="./assets/css/response.css">
+    <script src="https://code.iconify.design/2/2.1.0/iconify.min.js"></script>
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav class="navbar">
+      <ul class="text-gradient">
+        <!-- <a href="./index.html" class="menu-btn">home</a> -->
+        <a href="#about" class="menu-btn">about</a>
+        <a href="#skill" class="menu-btn">skill</a>
+        <a href="#project" class="menu-btn">project</a>
+        <a href="#contact" class="menu-btn">contact</a>
+      </ul>
+    </nav>
+    <button id="top-btn" class="glow-effect" type="button" onclick="topFunction()"><span class="iconify" data-icon="ep:caret-top" style="color: white;"></span></button>
+    <!-- banner -->
+    <div class="banner spacer layer1" id="home">
+      <h4 class="font-size24">hello</h4>
+      <h1 class="font-size64 text-gradient text-glow">
+        I'm Bounheuang SENKHAM
+      </h1>
+      <h3 class="font-size36">junior developer</h3>
+    </div>
+    <!-- about -->
+    <div class="about" id="about">
+      <h1 class="header text-glow font-size36">About me</h1>
+      <figure class="info">
+        <!-- profile -->
+        <img src="./assets/image/bounn.jpg" alt="" class="profile" />
+        <div class="space"></div>
+        <!-- caption -->
+        <div id="para-w-btn">
+          <figcaption>
+            <p>
+              Hello, my name is Bounheuang SENKHAM,you can call me Boun. Now,
+              I’m study at National University of Lao, Faculty of Engineering,
+              Department Computer Engineering and Information Tecnology.
+            </p>
+            <p>
+              I have a personality like a duck. I can learn all day all night.
+              And I'm always eager to learn about new technologies. I like
+              solving problems because I'm especially happy to solve problems.
+              My goal is to become a fullstack developer and cybersecurity.
+            </p>
+          </figcaption>
+          <!-- btn resume -->
+          <button type="button" class="btn btn-gradient-border btn-glow">
+            RESUME
+          </button>
+        </div>
+      </figure>
+    </div>
+    <!-- skill -->
+    <div class="skill" id="skill">
+      <h1 class="header text-glow font-size36">skill</h1>
+      <div class="card-skill">
+        <div class="card gradient-border glow-effect">
+          <h3 class="font-size24 upper">web developmennt</h3>
+          <div class="icon-skill">
+            <span
+              class="iconify"
+              data-icon="vscode-icons:file-type-html"
+            ></span>
+            <span class="iconify" data-icon="vscode-icons:file-type-css"></span>
+            <span
+              class="iconify"
+              data-icon="vscode-icons:file-type-js-official"
+            ></span>
+          </div>
+        </div>
+        <div class="card gradient-border glow-effect">
+          <h3 class="font-size24 upper">programming</h3>
+          <div class="icon-skill">
+            <span class="iconify" data-icon="logos:c"></span>
+            <span class="iconify" data-icon="logos:c-plusplus"></span>
+            <span class="iconify" data-icon="logos:c-sharp"></span>
+            <span class="iconify" data-icon="logos:java"></span>
+          </div>
+        </div>
+        <div class="card gradient-border glow-effect">
+          <h3 class="font-size24 upper">ux/ui design</h3>
+          <div class="icon-skill">
+            <span class="iconify" data-icon="grommet-icons:figma"></span>
+          </div>
+        </div>
+        <div class="card gradient-border glow-effect">
+          <h3 class="font-size24 upper">other</h3>
+          <div class="icon-skill">
+            <span class="iconify" data-icon="logos:github-octocat"></span>
+            <span class="iconify" data-icon="flat-color-icons:linux"></span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="project" id="project">
+      <h1 class="header text-glow font-size36">project</h1>
+      <div class="project-content text-gradient">
+        <h1 class="font-size64 upper">comming soon...</h1>
+        <p>or you can see it on my github</p>
+      </div>
+    </div>
+    <div class="footer" id="contact">
+      <div class="f-about">
+        <h4 class="text-gradient">about me</h4>
+        <p>
+          I have a personality like a duck. I can learn all day all night. And
+          I'm always eager to learn about new technologies. I like solving
+          problems because I'm especially happy to solve problems. My goal is to
+          become a fullstack developer and cybersecurity.
+        </p>
+        <div class="social">
+          <a href="https://www.facebook.com/profile.php?id=100009809716365">
+            <span
+              class="iconify"
+              data-icon="ant-design:facebook-filled"
+              style="color: white"
+            ></span>
+          </a>
+          <a href="https://www.instagram.com/boun_i.x.ii_/">
+            <span
+              class="iconify"
+              data-icon="akar-icons:instagram-fill"
+              style="color: white"
+            ></span>
+          </a>
+          <a href="#">
+            <span
+              class="iconify"
+              data-icon="akar-icons:twitter-fill"
+              style="color: white"
+            ></span>
+          </a>
+          <a href="https://github.com/bounnn">
+            <span
+              class="iconify"
+              data-icon="akar-icons:github-fill"
+              style="color: white"
+            ></span>
+          </a>
+        </div>
+      </div>
+      <!-- <div class="f-link">
+        <h4 class="text-gradient">link</h4>
+        <ul>
+          <a href="./index.html" class="menu-btn">home</a>
+          <a href="#about" class="menu-btn">about</a>
+          <a href="#skill" class="menu-btn">skill</a>
+          <a href="#project" class="menu-btn">project</a>
+          <a href="#contact" class="menu-btn">contact</a>
+        </ul>
+      </div> -->
+      <div class="f-contact">
+        <h4 class="text-gradient">contact</h4>
+        <div class="address">
+          <span
+            class="iconify"
+            data-icon="ic:sharp-email"
+            style="color: white"
+          ></span>
+          <p>skboun1102@gmail.com</p>
+        </div>
+        <div class="address">
+          <span
+            class="iconify"
+            data-icon="bx:bxs-phone-call"
+            style="color: white"
+          ></span>
+          <p>+8562028694806</p>
+        </div>
+        <!-- <label for="">
+          <textarea name="" id="" cols="30" rows="6"></textarea>
+          <button type="submit" class="btn btn-gradient-border btn-glow">
+            SEND
+          </button>
+        </label> -->
+      </div>
+    </div>
+    <script src="./assets/js/main.js"></script>
+  </body>
+</html>

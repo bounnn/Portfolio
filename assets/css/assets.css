@@ -1,0 +1,139 @@
+:root {
+  --main-color: #0c0f14;
+  --main-text-color: #fff;
+  --head-color: #43a4cd;
+  --main-font: "Roboto Mono", monospace;
+  /* violet */
+  --primary-color: 111, 76, 255;
+
+  /* white */
+  --text-color: 256, 256, 256;
+}
+html {
+  scroll-behavior: smooth;
+}
+#top-btn {
+  display: none;
+  position: fixed;
+  bottom: 1rem;
+  right: 1rem;
+  width: 60px;
+  height: 60px;
+  background-image: linear-gradient(to right, rgb(1 134 218), rgb(182 49 167));
+  border: 0;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: all 1s ease-in;
+}
+/* text */
+.text-glow {
+  text-shadow: 0 0 80px rgb(192 219 255 / 75%), 0 0 32px rgb(65 120 255 / 24%);
+}
+.text-gradient {
+  background: linear-gradient(to right, #30cfd0, #c43ad6);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* card */
+.bg-blur {
+  overflow: hidden;
+}
+.bg-blur::before {
+  content: "";
+  background-image: var(--bg-image);
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  z-index: -1;
+}
+.bg-blur::before {
+  filter: blur(30px);
+}
+
+/* font size */
+.font-size64 {
+  font-size: 64px;
+}
+.font-size36 {
+  font-size: 36px;
+}
+.font-size24 {
+  font-size: 24px;
+}
+
+/* btn resume */
+.btn {
+  font-size: 12px;
+  padding: 0.6rem 2rem;
+  margin: 1rem 0;
+  cursor: pointer;
+  /* border-radius: 0px; */
+  transition: all 0.3s ease-out;
+  border-radius: 4px;
+  font-weight: bold;
+}
+.btn-gradient-border {
+  color: var(--main-text-color);
+  border: 2px solid transparent;
+  background-image: linear-gradient(rgb(13, 14, 33), rgb(13, 14, 33)),
+    radial-gradient(circle at left top, rgb(1, 110, 218), rgb(217, 0, 192));
+  background-origin: border-box;
+  background-clip: padding-box, border-box;
+}
+.btn-glow:hover {
+  box-shadow: rgba(var(--primary-color), 0.5) 0px 0px 20px 0px;
+}
+.glow-effect {
+  box-shadow: rgba(var(--primary-color), 0.5) 0px 0px 20px 0px;
+}
+.btn {
+  transition: all 0.3s ease-out;
+}
+
+.btn:hover {
+  transition: all 0.3s ease-out;
+}
+/* navbar menu */
+.menu-btn {
+  transition: 0.3s ease-out;
+}
+.menu-btn:hover {
+  text-shadow: 0 0 30px rgb(192 219 255 / 75%), 0 0 32px rgb(65 120 255 / 24%);
+}
+/* banner */
+.banner h3,
+h4 {
+  text-transform: capitalize;
+  font-weight: 300;
+}
+.banner > * {
+  transition: all 0.3s ease-out;
+}
+/* layer curve */
+.spacer {
+  aspect-ratio: 960/300;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.layer1 {
+  background-image: url(../image/ver2.svg);
+}
+.upper {
+  text-transform: uppercase;
+}
+.iconify {
+  font-size: 42px;
+  margin: 0 0.5rem;
+}
+.gradient-border {
+  color: var(--main-text-color);
+  border: 3px solid transparent;
+  background-image: linear-gradient(rgb(13, 14, 33), rgb(13, 14, 33)),
+    radial-gradient(circle at left top, rgb(1, 110, 218), rgb(217, 0, 192));
+  background-origin: border-box;
+  background-clip: padding-box, border-box;
+}
